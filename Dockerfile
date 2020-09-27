@@ -26,4 +26,4 @@ RUN apt-get update && \
 
 # COPY utils/docker_entrypoint.sh /root/docker_entrypoint.sh
 # ENTRYPOINT ["/root/docker_entrypoint.sh"]
-CMD bash -c "/bin/bash"
+CMD ["/bin/bash"]
